@@ -1,0 +1,4 @@
+prompt = 'What...is the airspeed velocity of an unladen shallow?\n'
+speed = input(prompt)
+int(speed)
+int(speed) + 5
