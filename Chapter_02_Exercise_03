@@ -12,4 +12,5 @@ hrs = int(hrs)
 rate = float(rate)
 
 pay = hrs * rate
-print(pay)
+pay = str(pay)
+print('Pay: ' + pay)
