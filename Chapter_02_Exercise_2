@@ -3,5 +3,4 @@
 prompt = 'Enter your name! :'
 
 W = input(prompt)
-
 print('Hello ' + W)
