@@ -1,0 +1,8 @@
+# compute the percentage of the hour that has elapsed
+
+prompt = 'Please input minute.\n'
+minute = input(prompt)
+
+minute = int(minute)  # Because Input function stores value as a String type
+
+percentage = (minute * 100) / 60  # percentge of an hour
