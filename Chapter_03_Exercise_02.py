@@ -7,7 +7,6 @@
 
 
 try :
-  
   hrs = input('Enter Hours : ')
   hrs = float(hrs)
   
