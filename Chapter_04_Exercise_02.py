@@ -12,3 +12,5 @@ def print_lyrics():
 def repeat_lyrics():
   print_lyrics()
   print_lyrics()
+
+# NameError: name 'repeat_lyrics' is not defined
