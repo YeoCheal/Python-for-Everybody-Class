@@ -5,23 +5,21 @@
 # parameters(hours and rate).
 
 
-try:
-    hrs = input('Enter hours :')
-    hrs = float(hrs)
+def computepay(hrs, rate):
+    try:
+        hrs = float(hrs)
+        rate = float(rate)
 
-    rate = input('Enter a rate :')
-    rate = float(rate)
+        if hrs > 40:
+            pay = (40 * rate) + (hrs - 40) * (rate * 1.5)
+            print(pay)
 
+        else:
+            pay = hrs * rate
+            print(pay)
 
-    if hrs > 40:
-        pay = (40 * rate) + (hrs - 40) * (rate * 1.5)
-        print(pay)
+    except:
+        print('Error, Please input the number.')
 
-    else :
-        pay = hrs * rate
-        print(pay)
-
-
-except:
-    print('Error, Please input the number.')
-
+        
+computepay(45, 10)
